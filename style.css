@@ -1,0 +1,105 @@
+header{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+	padding: 20px;
+	border-radius: 25px;
+	}
+
+
+h1{
+	font-weight: bold;
+	text-align: center;
+	}
+
+	
+h2{
+	text-align: center;
+	font-style: italic;
+	}
+
+
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin: 10%;
+	color: black;
+	border-radius: 25px;
+	}
+
+h3{
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	}
+
+.intro{
+	display: flex;
+	flex: 1;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.image{
+	padding: 15px;
+	justify-content: right;
+	min-width: 20%;
+
+}
+
+.intro-text{
+	padding: 10px;
+}
+
+.chart{
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	}
+
+a {
+	color: blue;
+	}
+
+footer{
+	font-family: sans-serif;
+	text-align: left;
+
+	}
+
+@media only screen and (min-width: 321px){
+	
+	.grid-area{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.grid-item{
+		flex-wrap: wrap;
+		flex-basis: auto;
+		margin: 1px;
+	}
+	
+	.grid-example {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+
+	.grid-item-example{
+		flex-basis: 30%;
+		margin: 1px;
+	}
+}
+
+@media only screen and (min-width: 320px) {
+
+	.chart{
+		flex-wrap: wrap;
+		height: 100%;
+		flex-basis: 100%
+	}
