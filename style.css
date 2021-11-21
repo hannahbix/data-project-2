@@ -4,7 +4,6 @@ header{
 	text-align: left;
 	color: black;
 	padding: 20px;
-	border-radius: 25px;
 	}
 
 
@@ -36,6 +35,11 @@ h3{
 	text-align: left;
 	}
 
+.quote{
+	font-style: italic;
+	font-weight: bold;
+}
+
 .intro{
 	display: flex;
 	flex: 1;
@@ -54,11 +58,37 @@ h3{
 	padding: 10px;
 }
 
-.chart{
+.takeaway2{
 	display: flex;
-	flex: 1;
-	justify-content: space-between;
+	padding: 10px;
+}
+
+
+.chart{
+	float: left;
+	padding: 10px;
+
+}
+
+.analysis{
+	float: right;
+	padding: 2px;
 	}
+
+.takeaway4{
+	display: flex;
+	padding: 10px;
+}
+
+.chart-sector{
+	float: left;
+	padding: 10px;
+}
+
+.analysis-sector{
+	float: right;
+}
+
 
 a {
 	color: blue;
@@ -67,7 +97,6 @@ a {
 footer{
 	font-family: sans-serif;
 	text-align: left;
-
 	}
 
 @media only screen and (min-width: 321px){
@@ -98,8 +127,38 @@ footer{
 
 @media only screen and (min-width: 320px) {
 
+	.image{
+		flex-wrap: wrap;
+		height: 100%;
+		flex-basis: 100%;
+	}
+
+	.takeaway2{
+		display: flex;
+	}
+
 	.chart{
 		flex-wrap: wrap;
 		height: 100%;
 		flex-basis: 100%
 	}
+
+	.analysis{
+		flex-wrap: wrap;
+		flex-basis: 100%;
+	}
+
+
+	.takeaway4{
+	display: flex;
+	}
+
+.chart-sector{
+	height: 100%;
+	flex-basis: 100%;
+}
+
+.analysis-sector{
+	height: 100%;
+	flex-basis: 100%;
+}
