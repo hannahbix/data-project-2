@@ -12,7 +12,6 @@ h1{
 	text-align: center;
 	}
 
-	
 h2{
 	text-align: center;
 	font-style: italic;
@@ -24,8 +23,8 @@ body {
 	font-family: sans-serif;
 	font-weight: lighter;
 	margin: 10%;
+	padding: 10px;
 	color: black;
-	border-radius: 25px;
 	}
 
 h3{
@@ -34,11 +33,6 @@ h3{
 	font-weight: bold;
 	text-align: left;
 	}
-
-.quote{
-	font-style: italic;
-	font-weight: bold;
-}
 
 .intro{
 	display: flex;
@@ -56,6 +50,11 @@ h3{
 
 .intro-text{
 	padding: 10px;
+}
+
+.quote{
+	font-style: italic;
+	font-weight: bold;
 }
 
 .takeaway2{
@@ -127,10 +126,14 @@ footer{
 
 @media only screen and (min-width: 320px) {
 
+	.intro{
+		display: flex;
+		padding: 10px;
+
+	}
+
 	.image{
-		flex-wrap: wrap;
-		height: 100%;
-		flex-basis: 100%;
+		display: none;
 	}
 
 	.takeaway2{
@@ -138,27 +141,21 @@ footer{
 	}
 
 	.chart{
-		flex-wrap: wrap;
-		height: 100%;
-		flex-basis: 100%
+		flex: 100%;
 	}
 
 	.analysis{
-		flex-wrap: wrap;
-		flex-basis: 100%;
+		flex: 100%;
 	}
-
 
 	.takeaway4{
-	display: flex;
+		display: flex;
 	}
 
-.chart-sector{
-	height: 100%;
-	flex-basis: 100%;
-}
+	.chart-sector{
+		flex: 100%;
+	}
 
-.analysis-sector{
-	height: 100%;
-	flex-basis: 100%;
-}
+	.analysis-sector{
+		flex: 100%;
+	}
