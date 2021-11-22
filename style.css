@@ -1,11 +1,9 @@
 header{
 	font-family: sans-serif;
-	font-weight: bold;
 	text-align: left;
 	color: black;
-	padding: 20px;
+	padding: 10px;
 	}
-
 
 h1{
 	font-weight: bold;
@@ -36,16 +34,6 @@ h3{
 
 .intro{
 	display: flex;
-	flex: 1;
-	padding: 10px;
-	justify-content: space-between;
-}
-
-.image{
-	padding: 15px;
-	justify-content: right;
-	min-width: 20%;
-
 }
 
 .intro-text{
@@ -130,10 +118,6 @@ footer{
 		display: flex;
 		padding: 10px;
 
-	}
-
-	.image{
-		display: none;
 	}
 
 	.takeaway2{
