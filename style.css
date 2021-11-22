@@ -120,6 +120,10 @@ footer{
 
 	}
 
+	.image{
+		max-width: 20%;
+	}
+
 	.takeaway2{
 		display: flex;
 	}
