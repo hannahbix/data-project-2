@@ -112,38 +112,6 @@ footer{
 	}
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 600px) {
 
-	.intro{
-		display: flex;
-		padding: 10px;
-
-	}
-
-	.image{
-		max-width: 20%;
-	}
-
-	.takeaway2{
-		display: flex;
-	}
-
-	.chart{
-		flex: 100%;
-	}
-
-	.analysis{
-		flex: 100%;
-	}
-
-	.takeaway4{
-		display: flex;
-	}
-
-	.chart-sector{
-		flex: 100%;
-	}
-
-	.analysis-sector{
-		flex: 100%;
-	}
+	
