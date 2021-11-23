@@ -1,11 +1,12 @@
 header{
+	margin:10%;
+	width: 90%;
+	font-size: 25px;
+	text-align: left;
 	font-family: sans-serif;
 	text-align: left;
 	color: black;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
+
 	}
 
 h1{
@@ -20,13 +21,12 @@ h2{
 
 
 body {
+	width: 90%;
+	margin: 10%;
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: lighter;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
+	text-align: left;
 	}
 
 h3{
@@ -62,9 +62,9 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
-	.image{
-		max-width: 550px;
+	header{width: 95%;
 	}
 
-}
+	body:{width: 95%
+	}
 	
