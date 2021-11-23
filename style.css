@@ -1,10 +1,10 @@
 header{
-	margin:10%;
 	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;	
 	font-size: 25px;
 	text-align: left;
 	font-family: sans-serif;
-	text-align: left;
 	color: black;
 
 	}
@@ -22,7 +22,8 @@ h2{
 
 body {
 	width: 90%;
-	margin: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: lighter;
@@ -43,12 +44,12 @@ h3{
 
 .takeaway2{
 	display: flex;
-	flex-direction: chart;
+	flex-direction: row;
 }
 
 .takeaway4{
 	display: flex;
-	flex-direction: chart;
+	flex-direction: row;
 }
 
 a {
@@ -62,9 +63,13 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
-	header{width: 95%;
+	.takeaway2{
+		display: flex;
+		flex-direction: column;
 	}
 
-	body:{width: 95%
+	.takeaway4{
+		display: flex;
+		flex-direction: column;
 	}
-	
+}
