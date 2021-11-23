@@ -2,7 +2,10 @@ header{
 	font-family: sans-serif;
 	text-align: left;
 	color: black;
-	padding: 10px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 	}
 
 h1{
@@ -20,9 +23,10 @@ body {
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: lighter;
-	margin: 10%;
-	padding: 10px;
-	color: black;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 	}
 
 h3{
@@ -32,14 +36,6 @@ h3{
 	text-align: left;
 	}
 
-.intro{
-	display: flex;
-}
-
-.intro-text{
-	padding: 10px;
-}
-
 .quote{
 	font-style: italic;
 	font-weight: bold;
@@ -47,71 +43,28 @@ h3{
 
 .takeaway2{
 	display: flex;
-	padding: 10px;
+	flex-direction: chart;
 }
-
-
-.chart{
-	float: left;
-	padding: 10px;
-
-}
-
-.analysis{
-	float: right;
-	padding: 2px;
-	}
 
 .takeaway4{
 	display: flex;
-	padding: 10px;
+	flex-direction: chart;
 }
-
-.chart-sector{
-	float: left;
-	padding: 10px;
-}
-
-.analysis-sector{
-	float: right;
-}
-
 
 a {
 	color: blue;
-	}
+}
 
 footer{
 	font-family: sans-serif;
 	text-align: left;
-	}
-
-@media only screen and (min-width: 321px){
-	
-	.grid-area{
-		display: flex;
-		justify-content: center;
-	}
-	
-	.grid-item{
-		flex-wrap: wrap;
-		flex-basis: auto;
-		margin: 1px;
-	}
-	
-	.grid-example {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-
-	}
-
-	.grid-item-example{
-		flex-basis: 30%;
-		margin: 1px;
-	}
 }
 
 @media only screen and (max-width: 600px) {
 
+	.image{
+		max-width: 550px;
+	}
+
+}
 	
